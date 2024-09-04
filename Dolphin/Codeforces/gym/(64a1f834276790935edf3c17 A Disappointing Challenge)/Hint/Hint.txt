@@ -1,0 +1,3 @@
+If n is bigger than or equal to 3776, that means she will crawl in a day.
+Otherwise, if n ≤ m, that means she never crawls to the top.
+In any other case, she will climb n-m meters every day forwards to the top.

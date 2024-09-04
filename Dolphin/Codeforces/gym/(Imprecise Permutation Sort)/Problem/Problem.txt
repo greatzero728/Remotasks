@@ -1,0 +1,9 @@
+This is an interactive problem.
+A permutation a_1, a_2, ..., a_n of integers from 1 to n is hidden from you, and you have to input only n. (1 ≤ n ≤ 16384)
+If you want to compare a_i and a_j, you can ask queries with the format "C i j": (1 ≤ i, j ≤ n)
+If |a_i − a_j| / max(a_i, a_j) ≤ 0.01, then return 0;
+Otherwise, if a[i] < a[j], then return −1;
+Otherwise, return 1;
+If you want to swap a_i and a_j, you can ask queries with the format "S i j": (1 ≤ i, j ≤ n). After each swap, the judge will respond with 1 if the array is sorted in ascending order and 0 otherwise.
+You can ask a maximum of 300,000 queries.
+The program should make at least one swap query. For example, if the hidden permutation is already sorted, it can make a query "S 1 1", receive a 1, and exit.

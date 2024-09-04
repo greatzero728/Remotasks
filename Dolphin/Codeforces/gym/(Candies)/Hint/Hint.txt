@@ -1,0 +1,9 @@
+To begin with, consider the simplest variant of solving this problem when a = b = c = 1. It is not difficult to see that in this case, the values of x, y, and z should be as equal as possible. If n is not divisible by 3, then some of these numbers must be rounded up, some down.
+In view of the above, you can solve this problem by following the steps below:
+1. We take as a first approximation x = n / 3a, y = n / 3b, z = n / 3c.
+2. Let's go through all the permutations a, b, and c.
+3. Let's iterate over x in the interval [n / 3a - n^(1/3), n / 3a + n^(1/3)]
+4. Let's iterate over y in the interval [(n - ax) / 2b - n^(1/3), (n - ax) / 2b + n^(1/3)]
+5. We get z = (n - ax - by) / c and check if the product has become larger than the current one.
+Such a solution has asymptotic complexity O(n ^ 2/3).
+It should be noted that a partial solution based on enumeration of all possible values of x and y and calculation of z using the formula z = (n - ax - by) / c has asymptotic complexity O(n^2) and is estimated out of 40 points.

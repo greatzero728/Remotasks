@@ -1,0 +1,4 @@
+Iterate through each request and calculate the maximum cost per day. For each request, iterate through the hotels within the specified star range.
+Calculate the cost for the given number of days in each hotel by adding the initial cost to the product of the daily increase and (number of days – 1).
+Keep track of the maximum cost encountered. At the end of each request, print the maximum cost per day.
+Iterate through each request, calculate the maximum cost per day based on the specified star range and number of days, and print the results.

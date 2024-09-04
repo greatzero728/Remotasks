@@ -1,0 +1,5 @@
+First, you have to find the range over which each lighthouse shines on the circumference of the circle.
+You can find these ranges by using a method to find intersections with lines and circles.
+Overall, you changed this problem from circumference to line.
+So, you only need to check if n segments are given and that all these segments include the whole segment.
+This is a simple task, and you can solve it with a simple dynamic program.

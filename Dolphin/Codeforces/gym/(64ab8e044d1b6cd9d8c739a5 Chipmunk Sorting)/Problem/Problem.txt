@@ -1,0 +1,4 @@
+There is a permutation h_i whose length is n, and one integer a. (1 ≤ n ≤ 200000, 1 ≤ h_i ≤ n, a is -1 or 1).
+You can select i and j (i < j, h_i > h_j) and swap h_i and h_j.
+The cost of this operation is the number of k such that i < k < j, h_i > h_k > h_j.
+You have to maximize total cost when sorting permutations h_i.

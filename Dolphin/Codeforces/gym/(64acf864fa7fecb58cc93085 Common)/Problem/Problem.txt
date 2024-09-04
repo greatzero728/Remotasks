@@ -1,0 +1,2 @@
+You are given some sample encryption encrypted using a certain algorithm, and you have to write a program to decrypt the given messages.
+The length of the encrypted string is as follows: 1 ≤ |s| ≤ 10^5.

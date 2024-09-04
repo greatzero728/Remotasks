@@ -1,0 +1,12 @@
+Given the information about the programming contest, simulate the final results.
+The number of problems, N and the number of submitted solutions, M(1 ≤ N ≤ 26, 1 ≤ M ≤ 10^5) are given.
+The next N lines describe the solutions. Each of them contains a number T_i, a string S_i, symbols P_i and R_i(0 ≤ T_i ≤ 10^5, 1 ≤ |S_i| ≤ 20, 'A' ≤ P_i ≤ 'Z', R_i = '+'(or, '-')) — the time the solution was sent, the name of the participant who sent the solution, the task identifier, and the result of the check.
+T_i is the time of sending the i_th solution from the start of the competition, specified in minutes.
+The names of participants consist only of lowercase Latin letters and underscores. Task identifiers belong to the set of the first N capital letters of the Latin alphabet. The lines describing the solutions are ordered in the non-decreasing order of the values of T_i.
+S_i is the name of the participant who sent the i_th solution.
+P_i — identifier (letter) of the problem for which the i_th solution was submitted.
+R_i — the result of checking the i_th solution: '+' — the solution is counted, '-' — the solution is not counted.
+Based on this information, the content of the tournament table is formed in accordance with the general rules. (See full description and example.)
+Output the tournament table, drawn up and formatted in accordance with the rules.
+
+

@@ -1,0 +1,5 @@
+Find the base cell, which is a common cell in both the initial and final grids. This will be used as a reference point for transformations.
+Start by coloring the base cell in the initial grid to match the final grid.
+Perform a series of movements and color changes to transform the remaining cells. Use predefined rules and strategies to determine the optimal sequence of moves. Move vertically or horizontally to color adjacent cells that need to be transformed, keeping track of the current position in the grid.
+Repeat this process until all cells have been transformed to match the desired final configuration.
+Verify that the final grid matches the desired configuration, and output the sequence of moves and color changes performed to transform the initial grid into the final grid.

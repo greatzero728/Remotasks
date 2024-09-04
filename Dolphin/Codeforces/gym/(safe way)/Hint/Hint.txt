@@ -1,0 +1,2 @@
+Calculates the minimum total angle a driver needs to turn to reach a friend's house in a city. It represents the city using roads and intersections.
+Finds the intersection points, builds a graph, and applies Dijkstra's algorithm to find the minimum angle. You have to check the cases where there is no path and calculate the minimum excitement experienced by the driver.

@@ -1,0 +1,6 @@
+Let's see what we can do with trees of diameter 2 (aka star trees). You can only form complete bipartite graphs.
+So if your graph is completely bipartite, bicolor it and use star trees. Otherwise, you need trees with a diameter of 3.
+Let's describe a way to create two edges that share an endpoint using the xor of 2 trees with a diameter of 3.
+Start with a star tree rooted at r. Cut the edge (r, a) and add (a, b) instead. That's the first tree. Now, swap the labels a and b to get the second tree. The xor of these trees is just the edges (r, a) and (r, b).
+Next, let's describe a way to decompose a connected graph containing an even number of edges into pairs of edges that share an endpoint. Let's do a DFS. Say we're currently in node u. First, solve for u's children; then, if u is incident to an even number of edges, we pair these edges together with u as the common endpoint. If they're odd, pair them together, except for the edge between u and its parent. Its parent will take care of that.
+Finally, the case where the graph has an odd number of edges. If n is odd, n−1 is even, and we can only make a graph with an even number of edges, so it's impossible. Otherwise, just xor your graph with a star tree to make the number of edges even.

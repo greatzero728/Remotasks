@@ -1,0 +1,4 @@
+For each person, simulate their movement along the bus stops based on their sequence of moves.
+Then iterate through the move sequence, find the next bus stop that matches the move condition, and update the current stop and time accordingly.
+If a person's plan is completed, then print the final time and current stop.
+If the plan cannot be realized, then print "0 0".

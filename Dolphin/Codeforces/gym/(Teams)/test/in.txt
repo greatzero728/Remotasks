@@ -1,0 +1,16 @@
+5
+Dmitry Nikolay RomanB
+Pavel Vladimir Igor
+Egor RomanA Vyacheslav
+Dmitry Nikolay Igor
+Pavel Vladimir Vyacheslav
+Egor RomanA RomanB
+Dmitry Vladimir Vyacheslav
+Pavel RomanA RomanB
+Egor Nikolay Igor
+Dmitry Vladimir RomanB
+Pavel RomanA Igor
+Egor Nikolay Vyacheslav
+Dmitry Vladimir Igor
+Pavel RomanA Vyacheslav
+Egor Nikolay RomanB

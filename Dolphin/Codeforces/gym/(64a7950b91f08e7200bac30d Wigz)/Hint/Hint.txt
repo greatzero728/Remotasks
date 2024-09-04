@@ -1,0 +1,3 @@
+Since N × M ≤ 500, at least one of N or M must be smaller than or equal to 22.
+So, you can brute force on the smaller side using the state dynamic problem algorithm and then be greedy on the other.
+You can only think of the largest columns to maximize your answer.

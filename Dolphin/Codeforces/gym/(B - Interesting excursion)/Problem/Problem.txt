@@ -1,0 +1,6 @@
+There are n cities connected by m one-directional roads. (2 ≤ n, m ≤ 200000)
+Find a tour that starts and ends in the same city, visiting certain intermediate cities, while adhering to the following conditions:
+The tour must travel along some roads; the tour can revisit cities multiple times; and adjacent roads in the tour must have different landscape types.
+Each road is characterized by a unique landscape type.
+If a valid tour meeting these conditions exists, output the length of the tour and the number of roads included in the tour.
+If no valid tour is possible, output -1.

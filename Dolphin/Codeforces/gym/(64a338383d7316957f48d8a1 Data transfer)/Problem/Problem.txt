@@ -1,0 +1,5 @@
+There are n elements a_1, a_2,..., a_n (1 ≤ a_i ≤ 10^9, 1 ≤ n ≤ 2×10^5) and one integer b.
+You have to find a sequence a_k1, a_k2,..., a_km in array a so that m * len(max(a_k1, a_k2,..., a_km)) ≤ b.
+Here, 1 ≤ ki ≤ n, k_i < k_i+1(1 ≤ i < n).
+len(x) is the number of bits in the binary notation of x.
+You have to calculate the maximum value of m.

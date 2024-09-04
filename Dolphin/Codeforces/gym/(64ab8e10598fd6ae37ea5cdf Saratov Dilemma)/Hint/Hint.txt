@@ -1,0 +1,5 @@
+You can save the number of double beds to distribute the beds.
+So, you can assign men who can sleep in double beds to double beds.
+In similar ways, you can distribute men who can only sleep in single beds to single beds.
+After that, if the number of single beds exceeds a, you can reduce the expected number of single beds by distributing some men to double beds alone.
+Time complexity : O(n).

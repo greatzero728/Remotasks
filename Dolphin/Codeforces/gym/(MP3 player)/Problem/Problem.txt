@@ -1,0 +1,4 @@
+You have a playlist of songs, and you are going to shuffle the songs randomly, but you ensure that no two songs that were originally consecutive remain in the shuffled playlist.
+Calculate the number of possible rearrangements of the playlist that satisfy this condition.
+Given the number of songs in the playlist n and a modulo value m, your task is to output the count of valid rearrangements modulo m.
+The constraints are 2 ≤ n ≤ 2000 and 2 ≤ m ≤ 10^9. 

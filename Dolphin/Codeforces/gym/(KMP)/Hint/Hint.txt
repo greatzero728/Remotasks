@@ -1,0 +1,6 @@
+You can solve this using a simple dynamic program.
+First, you have to count out the number of integers in the sequence. (Let's denote num[i] as the number of occurrences of i in a given sequence.)
+Let's denote ans[i] as the number of good sequences, whose maximum value is i.
+If you calculate ans[1], ans[2], ..., ans[i - 1], then you can calculate ans[i] as follows:
+ans[i] = ans[i-1] * num[i] + num[i]
+Time complexity : O(n)

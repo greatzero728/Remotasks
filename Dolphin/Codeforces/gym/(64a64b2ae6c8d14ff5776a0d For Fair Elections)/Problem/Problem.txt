@@ -1,0 +1,6 @@
+There are n citizens who are upcoming to vote.
+There are two options.
+In the first option, each citizen votes for one of the citizens he trusts. The citizen who has more votes than any other citizen chooses any citizen he wants as president.
+In the second option, the committee divides the voters into a few groups of the same size, and the representative in every group is elected using the same scheme.
+The voting organization is planning to use his friend from the election committee to divide the citizens into groups by himself.
+Calculate the minimum number of supporters that a candidate needs to win the election.

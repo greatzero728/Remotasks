@@ -1,0 +1,4 @@
+There is a text that contains both exponentiation and footnotes denoted by '^' followed by a number and a punctuation mark or space.
+You have to determine whether each '^' character in a text represents an exponentiation or a footnote. Overall, find the correct partitioning that maximizes the number of footnotes.
+The input text can have up to 10^6 characters. The output should include the count of '^' characters, followed by two lines indicating if each '^' character can be an exponentiation or used as a footnote.
+(The maximum number that can appear after a '^' symbol is 10^6.)

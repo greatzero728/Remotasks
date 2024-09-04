@@ -1,0 +1,8 @@
+Try to find t such that x ≤ t < 2 · x.
+The answer is then simply t − t % x.
+How to find the right t:
+Since x could be 1, we can only try t = 1 as the first query. If this t is less than x, you know that x is at least 2.
+Thus, the largest possible t we can now try is t = 3. If this t is less than x, you know that x is at least 4.
+Thus, the largest possible t we can now try is t = 7. If this t is less than x, you know that x is at least 8.
+Finally, try t = 2^i − 1 until t mod x != t.
+Then answer with t − (t mod x)

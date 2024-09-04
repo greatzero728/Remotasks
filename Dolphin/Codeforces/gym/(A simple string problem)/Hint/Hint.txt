@@ -1,0 +1,4 @@
+To solve the problem, you can iterate over each given string. For each string, create a frequency table to count the occurrences of each substring of length 2.
+Then check if the frequency table meets the conditions for being pairwise equivalent. If it does, we calculate the number of pairwise equivalent strings based on the frequencies of specific characters in the substring count.
+You handle different cases based on the structure of the frequency table.
+Finally, print the result as modulo 10^9 + 7.

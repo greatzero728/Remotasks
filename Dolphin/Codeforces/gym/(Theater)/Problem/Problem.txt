@@ -1,0 +1,5 @@
+The stage is a rectangle of size W by L meters, and there are N backlights. (1 ≤ W, L ≤ 50, 1 ≤ N ≤ 15)
+A can move at a maximum speed of V1 meters per second, and B can move at a maximum speed of V2 meters per second. (1 ≤ V1, V2 ≤ 20) A can only turn on the lights, and B can only turn them off. A starts on the left side of the stage, and B starts on the right side.
+The lamps that need to be turned on and off for each action are specified in a script.
+Before the first action, the necessary lamps are already turned on.
+The goal is to minimize the total time between actions.

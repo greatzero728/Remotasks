@@ -1,0 +1,4 @@
+You can consider each change in the state of the teleports as an event and process these events accordingly. Keep track of all active teleports and the distances between them.
+When a teleport turns on, calculate the new distances. Otherwise, adjust the distances accordingly.
+Use an appropriate map structure to efficiently insert and remove teleports, and another one to keep track of distances between active teleports.
+After every event, calculate the maximum time it would take to travel between two points on the circle, given the current state of the teleports and the player's speed.

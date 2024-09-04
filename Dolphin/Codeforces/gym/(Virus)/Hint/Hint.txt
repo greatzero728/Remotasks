@@ -1,0 +1,5 @@
+According to the restrictions, it is immediately clear that an enumeration must occur in this problem.
+But the maximum answer to this problem exceeds 8 million.
+Therefore, iterations that use state memorization, for example, in a hash set, do not pass in time.
+We will generate the answer recursively with a return.
+We stored two arrays a and tried – state and cells, which we could put if we wanted, and now we will not put them anymore.

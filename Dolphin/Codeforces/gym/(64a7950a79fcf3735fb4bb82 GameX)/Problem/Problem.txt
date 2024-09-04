@@ -1,0 +1,9 @@
+Alice and Bob are playing the Mex game.
+Before the game started, S = {a_1, a_2,..., a_n} was given.
+Two players alternate moves, and Alice moves first.
+During one's move, he or she could choose an arbitrary integer x and insert x into S.
+After k rounds, each player made k updates, and the winner was determined as follows:
+St. Alice wins if Mex (S) is even, and Bob wins otherwise.
+Two players are very smart, so both of them made optimal moves.
+Determine winner.
+(1 ≤ n, k ≤ 2×10^5, 0 ≤ a_i ≤ 10^6)

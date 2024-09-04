@@ -1,0 +1,7 @@
+Append numbers to the end of the array b dynamically and calculate the sum of the minimum values of all subarrays in the array every time.
+The final length of the array is n.
+The input contains six integers: n, p, x, y, z, and b_1. (1 ≤ n ≤ 10^7, 2 ≤ p ≤ 10^9, 0 ≤ x, y, z, b_1 < p)
+You need to generate the array {b_1, b_2, ..., b_n} by yourself using the following formula:
+b_i+1 = (x × A_i + y × b_i + z) % p.
+(Here, A_i is the answer just after inserting b_i as last.)
+You only need to calculate the value A_1 ^ A_2 ^ ... A_n, where "^" denotes the bitwise XOR operation.

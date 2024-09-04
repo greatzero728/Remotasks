@@ -1,0 +1,3 @@
+If the two rectangles do not intersect, the two line segments formed by projecting the two rectangles onto the x-axis or the y-axis do not intersect.
+Separate and sort all rectangles and sides parallel to the x and y axes, and record the maximum weight of the prefix to update the answer.
+You can use a set structure to do this.

@@ -1,0 +1,2 @@
+Given a graph with n vertices and m unweighted edges, you have to find the maximum length of the path, which is the degree of all nodes strictly increasing in order.
+(1 ≤ n ≤ 100000, 1 ≤ m ≤ 300000; all edges are 0-index.)

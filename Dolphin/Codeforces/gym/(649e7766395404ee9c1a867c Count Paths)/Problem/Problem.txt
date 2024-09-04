@@ -1,0 +1,2 @@
+You are given a directed graph with n vertices (numbered 1 through n) and m directed edges. Count paths consisting of k steps (edges) and print the answer modulo 10^9+7. A path can visit the same vertex or edge multiple times.
+Here, 1 ≤ n ≤ 100, 0 ≤ m ≤ n * (n – 1), 1 ≤ k ≤ 10^9.

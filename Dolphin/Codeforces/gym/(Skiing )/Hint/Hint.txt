@@ -1,0 +1,5 @@
+You can solve this problem using a dynamic programming approach combined with simulation.
+Computes the maximal-length sequence of target points that can be passed over in a single run by iterating over the target points in reverse order.
+For each target point, check the feasible ranges of x-coordinates that can be reached from the previous point while considering the current y-velocity, lateral acceleration, and x-coordinate difference.
+Then, merge overlapping ranges and keep the lexicographically first range.
+Finally, you only need to print the resulting maximal-length sequence or "Cannot visit any targets" if no feasible solution is found.

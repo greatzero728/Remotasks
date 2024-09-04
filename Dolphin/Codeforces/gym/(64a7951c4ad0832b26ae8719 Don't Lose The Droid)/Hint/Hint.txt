@@ -1,0 +1,3 @@
+You can first implement the trip for T days by brute force.
+Here, you can find the range of your trip. (For example, minimum/maximum of x/y.)
+Using this range, you can guess the final position of your trip on the grid.

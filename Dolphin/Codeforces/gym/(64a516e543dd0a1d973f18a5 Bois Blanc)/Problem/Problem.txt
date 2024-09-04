@@ -1,0 +1,5 @@
+Designate a Cartesian coordinate system where the origin (0,0) is at the center of the island and the island has a radius of 1.
+You have decided to build N lighthouses on the island, numbered 1,2,… , N.
+The i_th Lighthouse i will be located at (x_i, y_i) and have a specific light angle α_i and an angle of vision θ_i.
+Thus, the lighthouse illuminates the area between two rays, the first extending from (x_i, y_i) at angle α_i - θ_i / 2 and the second extending from (x_i, y_i) at angle α_i + θ_i / 2.
+You have to check that all these lighthouses together light up the circumference of the island if all the lights are on.

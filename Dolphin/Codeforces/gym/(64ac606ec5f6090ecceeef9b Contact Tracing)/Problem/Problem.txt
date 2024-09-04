@@ -1,0 +1,7 @@
+You're given a list of people who had the disease and who they got it from, and you're trying to find the names of "superspreaders".
+Let's define a superspreader as someone who gave at least three other people COVID-19.
+Given this information, your task is to figure out the names of all the superspreaders in the town.
+There are n following details:
+the name of each person and the name of the person they got the coronavirus from.
+Print the names of each superspreader in the order they were given in the input.
+If there aren't any superspreaders in the town, output "NONE" (no quotes).

@@ -1,0 +1,7 @@
+For each element of the array, precompute (using the stack) the index of the next (and previous) strictly larger element.
+Let's iterate over the number T, the value of the maximum. Let's single out the right occurrence of T in the left segment (a_i, a_i+1, . . . , aj ), and the left occurrence in the right one. There are three options for what happens between the segments, that is, on the interval (a_j+1, . . . , a_k−1):
+1. All numbers are strictly less than T.
+2. There are numbers greater than T but not equal.
+3. Exactly T occurs at least once.
+Let's go through the list of indices in the array corresponding to the occurrences of the number T. For each pair of neighboring ones, we check (using the "next larger") whether they generate cases 1 or 2 and add to the answer the number obtained by the corresponding formula.
+In case 3, the answer must be added to the product of the number of ways to take the right segment by the number of ways to take the left segment. They are independent because they are separated by the occurrence of the number T. The number of right segments is calculated by the formula, and the number of left segments is the sum over the element that will be the right occurrence in the left segment.

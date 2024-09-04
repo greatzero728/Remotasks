@@ -1,0 +1,6 @@
+There are n bus stops in the city, through which k-ring bus routes pass.
+The i_th route passes through stops a_i_1, a_i_2, ..., a_i_l in given order, and there is exactly one bus on the route.
+At time 0, this bus is at stop a_i_1. To get to the next stop on its stopping route, the bus takes exactly one minute. All routes are circular.
+The plan of the j_th Person consists of a stop b_j, at which the person will start rolling, and sequences of Numbers c_j_1, c_j_2, ..., c_j_m. The person will move c_j_1, c_j_2, ..., c_j_m in the given order.
+If, at some point, several buses arrive at the stop at once, then the person will get on the bus with the minimum route number.
+For each Person, print the time in minutes when he will ride and the number of the stop where it will happen. If a person cannot realize his plan to the end, print two zeros for him.

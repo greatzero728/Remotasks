@@ -1,0 +1,3 @@
+Given an N×M grid a_i_j and k, you have to choose a set of rows R and a set of columns C such that |R| + |C| ≤ K and sum(a_i_j) is maximum. (Here, i is in R or j is in R).
+(1 ≤ N × M ≤ 500, 1 ≤ K ≤ N + M, 0 ≤ a_i_j ≤ 1000).
+The number of test cases is 1 ≤ T ≤ 50 and the sum of N × M over all test cases doesn't exceed 500.

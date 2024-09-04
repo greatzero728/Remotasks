@@ -1,0 +1,3 @@
+"MakeTest"
+"(Hotels)"
+"Trivial"

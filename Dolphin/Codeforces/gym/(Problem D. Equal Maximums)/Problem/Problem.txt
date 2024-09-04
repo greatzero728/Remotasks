@@ -1,0 +1,2 @@
+Given array a_i (|a| = n, 2 ≤ n ≤ 100000), you have to find the number of quadruples i, j, k, l, such that 1 ≤ i ≤ j < k ≤ l ≤ n and max{a_i, a_i+1, ..., a_j} = max{a_k, a_k+1, ..., a_l}.
+Since this number can be quite large, you have to output it modulo 1000000007.

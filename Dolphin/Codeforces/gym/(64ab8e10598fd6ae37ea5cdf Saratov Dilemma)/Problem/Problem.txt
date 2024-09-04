@@ -1,0 +1,12 @@
+There are one-seat and two-seat beds in the hotel.
+The number of one-seat beds is a, and the number of two-seat beds is b.
+There are n people in the hotel.
+There are n people, and among them there are people who agree to sleep with someone together on a double bet, but there are also people who are against it.
+Knowing these data, distribute the beds among the people.
+(1 ≤ n ≤ 200000, 0 ≤ a + b ≤ 200000)
+The information is given as a string s, which contains n characters, such as 0' or '1'.
+If s_i = 1, then i_th person can sleep with someone together on a double bed; otherwise, i_th person can't sleep with someone together on a double bed.
+In the first line, print "YES" or "NO" depending on whether it is possible to distribute people according to sleeping places or not.
+If the answer is yes, print more a + b lines.
+The first a line should contain one-seat information, and the next b line should contain two-seat information.
+If there is not a man in one bed, you can describe it as 0.

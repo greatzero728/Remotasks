@@ -1,0 +1,4 @@
+There are n dogs, all facing clockwise in a circle with n evenly spaced points.
+They all move over v_i points clockwise each time.
+You have to find the earliest time and point at which all dogs are at the same point during the period [1, 1001].
+(1 ≤ n ≤ 1000, 1 ≤ v_i ≤ 100)

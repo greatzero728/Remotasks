@@ -1,0 +1,5 @@
+There is a prime number, p.
+You have to print square roots modulo p for all numbers from 0 to p-1.
+If the square root doesn't exist, you have to print “-1”.
+If x × x % p = i, then x is the square number of the integer i.
+The range of the given prime number p is 2 ≤ p ≤ 1000000.

@@ -1,0 +1,4 @@
+N people won the lottery and received $100 each. They made purchases and kept a spending list.
+The person with the longest consecutive spending streak must pay a tax of A dollars to each person, where A is the length of the streak.
+Find the difference between the person with the most and the least money after taxes.
+(1 ≤ N ≤ 100, 1 ≤ Q ≤ 1000)

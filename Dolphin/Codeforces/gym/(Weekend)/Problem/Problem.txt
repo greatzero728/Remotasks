@@ -1,0 +1,5 @@
+Given a graph that contains N vertices, M edges, and F special vertices.
+All edges are given as three integers X Y Z(1 ≤ X, Y ≤ N, 1 ≤ Z ≤ 1000) which represent an undirected edge between the X_th vertex and the Y_th vertex.
+Also, N special vertices are given.
+You have to find the shortest path from 1 to N, which includes all special vertices.
+You can pass by any vertex more than once.

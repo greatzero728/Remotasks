@@ -1,0 +1,3 @@
+There is one integer z. (1 ≤ z ≤ 10^100).
+The number of ways to select k of n items should be equal to z.
+Calculate the minimum number n in order to be able to choose such a k.

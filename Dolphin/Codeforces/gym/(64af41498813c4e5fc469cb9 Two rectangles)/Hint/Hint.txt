@@ -1,0 +1,5 @@
+First, you can calculate the number of connective parts in the given matrix.
+If this number is larger than 3 or equal to 0, that means it's an impossible result.
+If this number is 2, you can check that each separate part is a perfect rectangle.
+In the last case, if the number of connective parts is one, you find variable states of possible locations of two rectangles and can solve them with a greedy, brute force implementation algorithm.
+Because the number of n and m is not larger than 200, you can do this task in the time complexity O(n × m).

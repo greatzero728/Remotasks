@@ -1,0 +1,8 @@
+Given n targets as coordinates x_i, y_i. (0 ≤ n ≤ 250, -10^5 ≤ x, y ≤ 10^5)
+You are starting at coordinate (0, 0) and moving at a constant v_y velocity. (0 ≤ v_y ≤ 10^5)
+Your initial velocity on the x-axis is 0, and you can change your x velocity with the maximum limits of lateral acceleration a_max. (0 ≤ a_max ≤ 10^7)
+You have to pass the maximum number of target points.
+To ensure floating-point stability, you may assume the answer will not change if a_max is perturbed by up to 0.1.
+Print the maximal-length sequence of targets that you can pass over on the course in a single run.
+If there are several answers, then print the lexicographically first one.
+If you can't pass over any targets, print "Cannot visit any targets" instead.

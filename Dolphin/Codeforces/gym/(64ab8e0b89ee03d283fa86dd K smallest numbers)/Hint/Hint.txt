@@ -1,0 +1,4 @@
+You can generate all A_i using the given formula.
+The main challenge is finding the K numbers that are the smallest.
+To do this, you have to sort an array whose length is about 10^7.
+You can sort this array by the number of occurrences of each value.

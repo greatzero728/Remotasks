@@ -1,0 +1,12 @@
+If you have a group of size N, and K out of them are P's followers, the worst case is if the remaining N – K are his opponents.
+In this case, all K vote for one of them, and all N-K for one of them.
+For P to certainly win, his supporter must get strictly more votes, so K > N - K. e.g. K = N / 2 + 1.
+Let's now denote the answer (considering both options) for N as A[N].
+In option 2, we have M groups of size N/M; M is a divisor of N.
+Those form one group of size N/M.
+You need the support of P to win that group, and for that, you need A[N/M] groups to be won.
+There's no point in sending any supporters of P into the other groups, so the answer for this M is A[N/M] A[M].
+However, P's friend can choose the option M (in the case of option 2) that minimizes the number of people.
+So if you want to find A[N], we find A[M] for all divisors, in the same way using dynamic programming and decide the minimum of A[N/M] A[M] and N/2 + 1 and for A[N].
+DP on all numbers smaller than N is obviously too slow, but we can use the fact that all numbers i for which we'd need to compute A[i] this way are also divisors of N, so you can just do DP on divisors and remember the values.
+N has at most around 1500 divisors, so even if we try divisibility by all numbers up to sqrt(n) to generate all divisors of every one of those divisors, it's fast enough to pass the tests.

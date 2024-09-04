@@ -1,0 +1,11 @@
+Your bus has two doors: the front door and the end door.
+At each bus stop, either a single person enters the bus or a single person leaves the bus.
+If a person wants to enter the bus, they will choose one of the doors to do that.
+If a person wants to leave at a stop, they will decide the direction with the least amount of people and proceed to that door (in case both directions have the same amount of people, the person decides the front door). Everyone in that direction will have to get out then and use the other door to get back in. These passengers will enter the bus again in the same order they got out.
+Given a description of people entering and leaving the bus, count how many people will have to get out when somebody leaves the bus.
+There are n actions at bus stops. (1 ≤ n ≤ 10^5)
+Each action is described as follows:
+"F": a person enters the bus using the front door.
+"B": a person enters the bus using the back door.
+"O i": the i_th person that has entered the bus today leaves.
+Print the number of people who will have to get out and go back in the bus when a person leaves at the stop for each type "O" query.

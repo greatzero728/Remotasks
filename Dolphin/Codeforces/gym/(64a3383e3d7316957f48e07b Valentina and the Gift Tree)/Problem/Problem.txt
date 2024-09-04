@@ -1,0 +1,4 @@
+There is a tree that contains n vertices, and each i_th vertex has the value g_i. (2 ≤ n ≤ 10^5).
+You have to answer Q queries.
+Each query is described as two integers, a_i and b_i (1 ≤ a_i, b_i ≤ n).
+You have to write the values of vertices in the shortest path from a_i to b_i to an empty array, and then, in this array, you have to calculate the maximum sum of possible subarrays.

@@ -1,0 +1,6 @@
+Given a tree in which the number of vertices is N (1 ≤ N ≤ 10000), you have to find the number of common nodes among a given set of paths in the tree.
+The input consists of T test cases, each starting with an integer N representing the number of nodes in the tree. (1 ≤ T ≤ 50)
+This is followed by N-1 lines, each containing two integers, u and v, representing an undirected edge from u to v.
+Then, an integer Q denotes the number of queries. (1 ≤ Q ≤ 10000) Each query starts with an integer K, representing the number of paths. (2 ≤ K ≤ 50) K lines follow, each containing two integers, a and b, representing a path from node a to node b. (1 ≤ a, b ≤ N)
+Output the number of common nodes among the K paths given for each query.
+(sum(N), sum(Q), sum(K) ≤ 500000)

@@ -1,0 +1,4 @@
+Let's assume that the longer edge is A and the other edge is B.
+Then you can easily find that the center of the circle is the middle point of edge A.
+Then, you can split the rectangle (A, B) into two rectangles (A / 2, B) and multiply the common area of the rectangle (A / 2, B) and circle R by two to get the answer.
+You can check special cases (e.g., rectangle (A / 2, B) is fully in a circle) and then generally find all the intersecting points between circle and rectangle, calculate the area of each part, and then sum them.

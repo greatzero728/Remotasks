@@ -1,0 +1,2 @@
+You have to calculate a decimal A/B with K digits after the decimal point. Round the last decimal with the round half up rule.
+Here, 1 ≤ A ≤ B ≤ 1000, 1 ≤ K ≤ 1000.

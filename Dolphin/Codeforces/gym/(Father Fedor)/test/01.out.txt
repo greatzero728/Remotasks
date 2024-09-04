@@ -1,0 +1,4 @@
+add 7 10 652265
+delete 7 10 652265
+add 7 10 0
+answer impossible

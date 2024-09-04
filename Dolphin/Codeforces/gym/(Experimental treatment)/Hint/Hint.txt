@@ -1,0 +1,5 @@
+You can solve this problem using the maximum bipartite matching algorithm, implemented using DFS.
+You have to restore a sequence c_i from given pairs (a_i, b_i) based on their occurrence counts.
+Construct a bipartite graph where each element (a_i or b_i) is connected to the corresponding occurrence count positions on the blackboard.
+By finding the maximum matching in this graph, you can assign a sequence value (1 to m) to each element.
+If maximum matching is possible, then print the restored sequence c_i; otherwise, print -1.

@@ -1,0 +1,4 @@
+Given an n × m matrix, you have to determine that this pattern is the painting result of two non-intersecting rectangles.
+(1 ≤ n, m ≤ 200, '#' represents a printed cell, '.' represents an unprinted cell.)
+If that is right, then you have to print "YES" in one line, and then in the next n lines, you have to print the shape of two rectangles as characters 'a' and 'b'.
+Otherwise, you only need to print "NO" on one line.

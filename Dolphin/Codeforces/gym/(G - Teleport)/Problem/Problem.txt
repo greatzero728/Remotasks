@@ -1,0 +1,4 @@
+In a game on a circular arena of length l, a player can either run at speed v or use currently n active teleports. (3 ≤ l ≤ 10^9, 1 ≤ v ≤ 1000, n ≤ l. 1 ≤ n, m ≤ 10^5, m is the number of teleport state changes)
+Teleports, initially at specified positions, can be turned on or off during the game, changing the best route for the player.
+The player's movement is only along the circle or through active teleports.
+Given an initial state and a sequence of teleport state changes, calculate the maximum time to travel from one point on the circle to another for each game state. The answer should have a precision error of no more than 10^-6. 

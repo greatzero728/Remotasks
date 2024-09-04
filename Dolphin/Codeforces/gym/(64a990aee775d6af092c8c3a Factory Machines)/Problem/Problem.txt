@@ -1,0 +1,4 @@
+There is an array a_i whose length is n. (1 ≤ n ≤ 200000, 1 ≤ a_i ≤ 10^9)
+And there is also an integer t. (1 ≤ t ≤ 10^9).
+You have to find the minimum value x such that the following is satisfied.
+sum(x/a_i) >= t. (1 ≤ i ≤ n)

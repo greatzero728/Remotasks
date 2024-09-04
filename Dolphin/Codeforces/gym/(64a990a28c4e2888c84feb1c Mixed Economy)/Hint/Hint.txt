@@ -1,0 +1,6 @@
+To solve this problem, you have to do two things:
+1. Figure out how much each person has in their bank account before the tax.
+2. Find the person who needs to pay the tax and figure out how much they need to pay.
+The first task is simple enough; you can iterate through the spending list and keep track of each person’s bank account using a map or an equivalent data structure.
+For the second task, you will iterate through the list and keep track of two variables: a and b. a is the length of the longest spending streak by any person so far, and b is the length of the current spending streak. Whenever the spending list switches to another person, we reset b to 1. Every time b surpasses a, we set a to b and label the person we are currently iterating through as the one that pays the tax. After doing this, we simply subtract a·(N −1) dollars from the taxed person and give a dollars to everyone else.
+To get the answer, just find the person with the least amount of money and subtract that value from the person with the most money.

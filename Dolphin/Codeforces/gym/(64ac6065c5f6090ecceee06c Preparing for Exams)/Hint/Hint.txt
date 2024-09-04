@@ -1,0 +1,8 @@
+Let's denote the area of triangle ABC as ABC and the length of line segment AB as AB.
+Then, oda = od * oa * sin(al) / 2. (Here, al is the angle between two half line.)
+So, you can calculate the value of sin(al).
+And because obc = ob * oc * sin(al) / 2, you can calculate ob * oc.
+And using the od * oc = oa * ob theory, you can calculate oc / ob.
+So using two values, ob * oc and oc / ob, you can calculate ob and oc.
+Finally, you can calculate dc and ab as following:
+dc = oc - od, ad = ob - oa.

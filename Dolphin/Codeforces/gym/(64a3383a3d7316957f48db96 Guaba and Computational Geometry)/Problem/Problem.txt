@@ -1,0 +1,5 @@
+There are n rectangles on a two-dimensional plane.
+The i_th rectangle has a weight w_i.
+You should find two non-overlapping rectangles, i and j, and make w_i+w_j as large as possible.
+The i_th rectangle is given as four integers (a_i, b_i, c_i, d_i): the lower left corner (a_i, b_i) and the upper right corner (c_i, d_i).
+(Here, 1 ≤ n ≤ 3×10^5, -10^9 ≤ a_i, b_i, c_i, d_i ≤ 10^9, a_i < c_i, b_i < d_i, 1 ≤ w_i ≤ 10^9)

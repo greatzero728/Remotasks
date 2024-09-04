@@ -1,0 +1,4 @@
+You have to simulate the full state of the contest.
+To do this, you have to store the number of accepted problems, the total penalty, the last accepted submission time, and the attempt number of each problem.
+Then you can declare the < operator in this struct and then sort this struct in the aim order.
+Finally, you have to print in the correct form.

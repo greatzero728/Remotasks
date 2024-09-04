@@ -1,0 +1,6 @@
+A password consisting of digits and English letters is given. (Length of password: 10 ≤ |s| ≤ 50)
+You must represent it as a bitwise xor of several equalities.
+Each equality must have a valid arithmetic equality.
+The number of passwords you have to split is P. (1 ≤ P ≤ 50)
+For each password, if there is no valid split, output a line with the single word "NO".
+Otherwise, the first line should contain a single word, "YES". The next line should contain one integer k (1 ≤ k ≤ 1000) – the number of equalities in your split. Each of the next k lines should contain one equality. It can be proven that if a solution exists, there is a solution where k doesn’t exceed 1000.

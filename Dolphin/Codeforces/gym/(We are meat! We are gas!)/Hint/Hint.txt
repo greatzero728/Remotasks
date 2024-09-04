@@ -1,0 +1,4 @@
+Iterate through the list of player heights.
+For each player, you can check if their height is even and if the next player's height is also even. If both conditions are met, you can check if there is at least one player with an odd height between them.
+If these conditions are satisfied, you increment a count variable.
+Finally, output the value of the count variable, which represents the number of pairs of players that meet the given conditions.

@@ -1,0 +1,3 @@
+You have to determine the divisions in which a participant can compete based on their rating. There are three divisions, each with a specific rating range. A participant with a rating from 0 to 1600 competes in the third division, from 1601 to 1900 in the second division, and above 1900 in the first division.
+The input includes the participant's rating and a string representing the divisions being held.
+You have to print the divisions in which the participant can participate, in ascending order. If the participant's rating is higher than all participants in their base division, they are out of competition.

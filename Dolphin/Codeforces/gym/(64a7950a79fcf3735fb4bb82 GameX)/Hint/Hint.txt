@@ -1,0 +1,3 @@
+Because Alice hopes that the final MEX is an even number, the numbers she adds must be odd numbers; similarly, Bob adds all even numbers.
+Because MEX is to find the first natural number that does not appear from small to large, the two people will add the first odd or even number that has not appeared from small to large every time.
+Because there are not many operations, it is enough to output the answer directly after confirming the operations of the two people.

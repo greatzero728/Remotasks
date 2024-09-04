@@ -1,0 +1,5 @@
+There is a rectangle whose width is A and length is B. (1 ≤ A, B ≤ 10000)
+You can draw a circle whose radius is R (1 ≤ R ≤ 20000) and whose center is not inside the given rectangle.
+Your task is to maximize the area, which includes both a rectangle and a circle.
+Calculate the maximum area.
+The answer will be considered correct if its relative or absolute error does not exceed 10^-6.

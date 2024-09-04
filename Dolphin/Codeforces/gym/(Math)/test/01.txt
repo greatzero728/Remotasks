@@ -1,0 +1,1 @@
+sample: 2 plus 2 equals 2^2.^1 easy,^2 isnt it? 1^1 equals 1.

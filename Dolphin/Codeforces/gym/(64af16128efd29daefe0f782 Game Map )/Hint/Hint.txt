@@ -1,0 +1,3 @@
+You can first find all degrees of nodes and direct each node from a lower-degree ending node to a higher-degree ending node.
+Then you can topologically sort this graph by the number of nodes.
+Then, using dynamic programming, you can find the maximum length of the final paths.

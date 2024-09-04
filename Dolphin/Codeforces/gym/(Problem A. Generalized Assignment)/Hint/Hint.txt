@@ -1,0 +1,4 @@
+You can solve this problem using the min-cost-max-flow algorithm.
+Let's consider all rows as source vertices and all columns as target vertices, and then all n × n elements as the edge from source vertex to target vertex.
+Then the state of the selected edges will be considered the minimum cost for maximum flow.
+You only need to print the minimum cost.

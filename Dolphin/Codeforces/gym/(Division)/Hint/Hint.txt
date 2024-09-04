@@ -1,0 +1,5 @@
+Determine the base division based on the participant's rating.
+Check if the base division is present in the competition divisions, and if so, print it and end.
+If the base division is not present, iterate through the competition divisions.
+Print the divisions that are lower than the base division.
+For divisions higher than the base division, print them followed by '*' to indicate the participant will compete out of the competition. Ensure the divisions are printed in ascending order.

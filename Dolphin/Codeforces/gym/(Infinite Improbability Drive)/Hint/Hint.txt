@@ -1,0 +1,4 @@
+You can solve this problem using depth-first searching.
+In DFS, the exploration of neighboring states is done through two recursive calls.
+The first call calculates the next state by left-shifting the current state by 1 and performing a bitwise OR operation with 1. This effectively appends a 1 to the rightmost bit of the current state.
+The second call calculates the next state by left-shifting the current by 1, which appends a 0 to the rightmost bit of the current state.

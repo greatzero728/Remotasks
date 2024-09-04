@@ -1,0 +1,3 @@
+In this problem, you have to simulate the movement of bacteria.
+You can simulate this using a set structure.
+Following each query step by step, you only need to check that the position of all bacteria is the right element by iterating the set.

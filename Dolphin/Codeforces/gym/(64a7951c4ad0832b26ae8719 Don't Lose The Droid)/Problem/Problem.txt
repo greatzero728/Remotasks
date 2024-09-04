@@ -1,0 +1,11 @@
+You have to travel for T days in the N × M grid. (1 ≤ N, M ≤ 10^6, 1 ≤ N × M ≤ 10^6)
+Each day, you have to move from the current cell to another adjacent cell with the given character.
+C : You have to move upwords.
+D : You have to move rightwards.
+B : You have to move downloads.
+E : You have to move leftwards.
+You can start in any cell in the grid, but during the trip, you can't go outside the grid.
+Your task is to find out the possible cells that you can access at the end of the trip.
+You can first implement the trip for T days by brute force.
+Here, you can find the range of your trip. (For example, minimum/maximum of x/y.)
+Using this range, you can guess the final position of your trip on the grid.

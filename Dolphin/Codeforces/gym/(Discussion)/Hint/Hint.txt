@@ -1,0 +1,4 @@
+You can iterate over n using the binary search algorithm.
+If you fix n, then you can find k such that C(n, k) = z using the binary search algorithm, too.
+If you reach k, then you can check that C(n, k) = z.
+This way, you can find the minimum n.

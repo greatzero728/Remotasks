@@ -1,0 +1,5 @@
+You can solve this problem with brute force.
+You can iterate the earliest times one by one.
+At a certain t, you can find the position of each dog as (i + v_i × t) % n.
+Then you only need to check that all positions are the same.
+Note: In the case of n = 1, you have to print 0 0.

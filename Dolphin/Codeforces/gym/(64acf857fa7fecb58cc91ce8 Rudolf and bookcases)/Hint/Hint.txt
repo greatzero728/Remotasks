@@ -1,0 +1,5 @@
+You can calculate the minimum number of boxes by using that formula.
+cnt = (n + l - 1) / l.
+Then, you can calculate the minimum number of desks using that similar formula.
+ans = (cnt + k - 1) / k.
+Time complexity : O(1)

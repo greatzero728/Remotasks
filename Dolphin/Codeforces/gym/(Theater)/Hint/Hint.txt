@@ -1,0 +1,4 @@
+You can solve this problem using dynamic programming.
+Calculate the distances between lamps and then determine the fastest way to turn lamps on and off for each action in the performance.
+You can do this by tracking previous best times, updating them with new actions, and making sure the workers move efficiently.
+You can get the shortest total time for all mandatory light adjustments between actions.

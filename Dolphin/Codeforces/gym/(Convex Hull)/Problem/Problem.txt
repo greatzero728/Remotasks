@@ -1,0 +1,4 @@
+There are n points whose coordinates are integers x_i and y_i (3 ≤ n ≤ 100000, |x_i|, |y_i| ≤ 10^9)
+Find the number of points with integer coordinates that are strictly inside the convex hull of the given set of n points.
+The convex hull is the smallest convex polygon containing the given points.
+No two points match. Among the given points, there are three that do not lie on one straight line.

@@ -1,0 +1,6 @@
+The range of n is very large, so you need a linear algorithm.
+You can notice that when you append b_i to the end of an array, you only need to calculate the sum of the minimum values of subarrays, for which the right endpoint is i.
+To do this, you only need to find the largest index id whose value is less than b_i. You can easily find this index in O(log(n)) per operation using a segment tree, but in this problem, you can do this using a stack structure in O(n) total. If you maintain the values in ascending order, you can find the rightest index id in which the value is less than b_i.
+Then the sum of the minimum value of subarrays that contain b_i, is the sum A[id] - A[id - 1] + b_i * (i - id).
+Finally, you can calculate the value A_1 ^ A_2 ^ ... A_n.
+Time complexity O(n).

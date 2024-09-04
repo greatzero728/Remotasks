@@ -1,0 +1,3 @@
+There are N pencils and K boxes, and you have to calculate the number of different ways to distribute the pencils while ensuring that no boxes are left empty. (1 ≤ N ≤ 10^9, 1 ≤ k ≤ min(N, 10))
+There are t test cases, and each test case consists of two integers: the number of pencils N and the number of boxes K. (1 ≤ t ≤ 500)
+For each test case, output the number of different pencil distributions in modulo 2017.

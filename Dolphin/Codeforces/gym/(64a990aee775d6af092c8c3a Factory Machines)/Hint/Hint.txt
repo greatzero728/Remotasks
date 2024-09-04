@@ -1,0 +1,4 @@
+You can iterate over answer x using binary search.
+Then you can calculate sum(x / a_i) by brute force.
+Finally, you only need to check sum(x / a_i) >= t.
+Time complexity: (O(log(t * max(a_i) * n))

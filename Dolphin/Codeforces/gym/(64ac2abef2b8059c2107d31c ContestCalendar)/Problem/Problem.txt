@@ -1,0 +1,7 @@
+Given the current time t and the information of n contests, you have to find the running and coming soon contests and the type of contest. (1 ≤ n ≤ 100)
+Each contest is given its own name, start time st and ending time ed. (All contest names are distinct.)
+If st ≤ t < ed then this contest is a running contest, and if t < st then this contest is a coming contest.
+The name of the contest is considered the consecration of several words. You only need to count the numbers C' and 'c'. If the word part is all uppercase, then you can count the number of 'C', otherwise you have to count the number of 'C' or 'c', which is only the leftmost character, and you have to skip other characters.
+If the number of 'C' (or 'c') is 0, then the type of this contest is "borning" and if 1, then the type is "interesting" and otherwise the type is "must coding!".
+Finally, you have to print all running contests and upcoming contests in the format: status name (type), where status is "Running" or "Comming soon".
+Competitions in the output should be sorted by start date, ascending, and if the starts are equal, then by the name of the competition.

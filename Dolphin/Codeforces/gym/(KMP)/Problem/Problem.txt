@@ -1,0 +1,3 @@
+Given an array S whose length is N, you have to calculate the number of good subsequences of S in modulo 1000000007.
+The good sequence is defined as having all its numbers different and containing every integer value between the minimum number in the sequence and the maximum number in the sequence.
+(1 ≤ N, S_i ≤ 10^5)

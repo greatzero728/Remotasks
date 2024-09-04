@@ -1,0 +1,5 @@
+Let X be the XOR of all the elements.
+If X != 0, we can split into two parts arbitrarily, and their XORs will be different.
+If X = 0, then let's try to split the array into three parts and see when it's impossible. Let a_x be the first nonzero element of the array (if all elements are 0, clearly there is no solution). Let the first subarray be a[1 : x]. We want to split the rest into two parts so that the XOR of both isn't 0 or a_x (the XORs of those parts can't be equal, as then the XOR of the entire array would be a_x, not 0).
+So, if there is no such split, then for any y with x + 1 < y < n, XOR on subarray a[x + 1: y] is 0 or ax. However, this means that each element is 0 or ax. So, all elements of the array are 0 or ax. But in this case, the XOR of any subarray is always 0 or ax, so there can't be any such split.
+So, the solution is: if X != 0, split arbitrarily. If X = 0, find the first nonzero element a_x, take subarray a[1: x], and try all possible ways to split the rest into two parts. If you haven't succeeded, there is no solution.

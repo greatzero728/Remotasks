@@ -1,0 +1,4 @@
+You can iterate over each character in the string s and consider it the center of a potential semi-palindrome.
+Then expand from the center, checking if the substring forms a semi-palindrome, and repeat this process for both odd and even-length substrings.
+To efficiently check if a substring is a semi-palindrome, you can use dynamic programming and maintain two arrays to track matching characters in the two halves.
+By comparing the lengths of the semi-palindromes encountered, you only need to find the longest substring that satisfies the given conditions.

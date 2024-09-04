@@ -1,0 +1,11 @@
+In the following cases, you can't find a valid solution:
+1. Bit 64 is in all letters. But in expressions, it is only in [] and {}.
+2. Parentheses in an expression are always even, so letters must be even.
+3. Of bits 64 and 32, there is exactly one everywhere except {}
+4. If the string is of even length, then the bit will always be even in the entire string.
+5. It means that in even lines, there are separate large and small letters.
+6. Everything else is possible!
+In other cases, you can find a valid solution.
+You can find a set of 7*n-1 or 7*n-2 linearly independent expressions. Then find the answer to one password using the Gauss method. Take random elements of the set until there are enough.
+One approach is to use random generation along with the Gauss method to find a set of linearly independent expressions.
+The Gaussian method is then used to solve for the expansion into rows from the selected set of expressions.

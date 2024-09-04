@@ -1,0 +1,13 @@
+2
+5
+andre clara gabriel vitoria matheus
+andre 200 3 clara gabriel vitoria
+gabriel 500 1 andre
+matheus 150 2 vitoria gabriel
+clara 0 2 matheus vitoria
+vitoria 0 0
+3
+liz joao andre
+liz 30 1 joao
+joao 55 2 liz andre
+andre 0 2 joao liz

@@ -1,0 +1,10 @@
+If the tree is only a path, then you can solve this problem using the simple segment tree algorithm.
+For each segment tree node, you only need to store sum, mx, Lmx, and Rmx.
+(Here, sum is the sum of all elements contained in this node, mx is the answer, Lmx is the maximal subarray beginning at left, Rmx is the maximal subarray ending at right.)
+But in this problem, the tree is not only a path, so you can use heavy_light decomposition algorithm to implement this algorithm.
+For more details, any query (u, v) can be divided into queries (u, x) and (v, x), where x = LCA(u, v).
+Thus, from now on, you assume that each query corresponds to a path (v, x) in the tree.
+You will compute answers to all the queries while traversing the tree using DFS and maintaining the following invariant: while entering a vertex v, you have a path from the root of the tree to v stored as a segment tree, like in the problem defined for a path.
+Then, if you enter a vertex v, first insert its value into the segment tree.
+After that, you can answer each query of the form (x, v) in O(log N ) time using the segment tree.
+The total complexity of this method is O((Q + N ) · log N ).

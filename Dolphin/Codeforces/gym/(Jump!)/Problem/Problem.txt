@@ -1,0 +1,5 @@
+You have to take a frog across a river by jumping on water lilies.
+The river is represented as a W × H rectangular grid, with each cell containing a water lily. (1 ≤ W × H ≤ 1000) Each water lily has a specific pattern of being underwater and on the surface, defined by N pairs of time intervals. (1 ≤ N ≤ 100)
+The frog can only jump on water lilies that are on the surface, and if a water lily goes underwater when the frog is on it, the game is lost.
+The input consists of the size of the grid, the number of intervals for each water lily, and the time intervals for each water lily. The output is the minimum time required to cross the river, or -1 if it is not possible.
+Find the minimum time required for the frog to cross the river from the left bank to the right bank.

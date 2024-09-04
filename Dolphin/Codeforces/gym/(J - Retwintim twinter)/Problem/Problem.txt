@@ -1,0 +1,6 @@
+You have to reformat a twint chain, where each twint is a message.
+The initial twint chain had a length limit of 140 characters, but now it has been increased to 280 characters.
+The input consists of an integer n (1 ≤ n ≤  5000), indicating the number of twints in the initial chain.
+Each twint is provided on a separate line and ends with "(i/n)" to indicate the twint's number and the total number of twints.
+Your task is to reformat the twint chain into as few twints as possible without breaking up words, while adhering to the new character limit of 280.
+The output must include the number of twints in the reformatted chain and the reformatted twints.

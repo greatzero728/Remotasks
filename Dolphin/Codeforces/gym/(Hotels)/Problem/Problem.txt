@@ -1,0 +1,4 @@
+There is a village with n hotels, each with a different number of stars. (1 ≤ n ≤ 100000)
+You want to know the maximum amount you will have to pay per day if you want to spend a specific number of days in hotels with a certain range of stars.
+The input consists of the number of hotels, the description of each hotel (initial cost a_i and daily increase d_i), the number of requests s, and the details of each request (range of stars and number of days l_i, r_i, k_i). (1 ≤ a_i, d_i ≤ 1000000000, 1 ≤ t ≤ 100000, 1 ≤ l_i, r_i ≤ n, 1 ≤ k_i ≤ 1000000000)
+Calculate the maximum cost per day for each given request.

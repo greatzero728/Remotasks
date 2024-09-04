@@ -1,0 +1,16 @@
+Description:
+Given array a_i, whose length is n.
+Also, m is given.
+In this problem, you have to select the maximum integer k such that the following is satisfied:
+min(a_1, k) + min(a_2, k) +... + min(a_n, k) ≤ m.
+
+Input:
+The first line of input contains two integers, n and m. (1 ≤ n ≤ 10^5, n ≤ m < sum of a_i)
+The second line contains n integers a_1, a_2,..., a_n (1 ≤ a_i ≤ 10^9)
+
+Output:
+Print number k.
+
+You can solve this problem using the binary search algorithm.
+You can check if x is a valid candidate answer in O(n) by calculating min(a_1, x) + min(a_2, x) +... + min(a_n, x) and comparing that with m.
+So, if you iterate value k as a binary search, you can find the maximum value of k in O(log(m) * n).

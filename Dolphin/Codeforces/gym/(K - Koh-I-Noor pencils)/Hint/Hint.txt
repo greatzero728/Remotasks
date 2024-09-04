@@ -1,0 +1,9 @@
+This problem is a set partitioning problem. There is a recursive relation that allows you to solve the problem by dynamic programming; deriving this formula is quite simple: s[n][k] = s[n - 1][k - 1] + k * s[n - 1][k], where n is the number of pencils and k boxes. That is, by adding one pencil, you can either put it in a box and scatter the rest by k - 1, or add it to one of the k boxes with some other pencils.
+So, it seems great, but the problem is that the condition n is too large. It should be noted that k is suspiciously small, so you write the recurrent formula in matrix form. Let v[n] = [v_1, v_2, v_3, ...., v_k] be the solution vector of the distribution of n pencils over different numbers of boxes, from 1 to k.
+Now introduce the matrix A:
+[1, 1, 0, ...., 0]
+[0, 2, 1, ...., 0]
+....
+[0, 0, 0, ..., k]
+That is, as you can see, v[n] = v[n - 1] * A.
+If you expand it, you get the formula v[n] = v[1] * A^(n - 1) due to the fact that the product of matrices is associative.

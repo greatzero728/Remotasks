@@ -1,0 +1,4 @@
+Given a permutation p of N numbers. (1 ≤ N ≤ 10^5)
+You have to find the number of permutations q such that if you apply the operation q k times to permutation (1, 2, 3,..., N), it will result in p. (0 ≤ k ≤ 10^6)
+If you do operation q to permutation a, then a will change as follows:
+(a_1, a_2, …, a_N) ⇾ (q[a_1], q[a_2], …, q[a_N])

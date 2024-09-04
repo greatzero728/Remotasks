@@ -1,0 +1,9 @@
+A and B live in a round building with n entrances.
+Each entrance has m floors and k apartments.
+A wants to find out the minimum time it takes for him to reach B's apartment.
+A can move between floors using stairs or an elevator. The elevator takes 1 second to move between floors and arrives 10 seconds after being called. If he doesn't use the elevator, then it takes 5 seconds to move between floors.
+Moving between adjacent entrances takes 15 seconds, while moving between apartments on the same floor is instant.
+The goal is to calculate the minimum time for A to reach B's apartment based on the given layout of the building and the locations of their apartments.
+Each n × m × k apartment is naturally numbered from 1 to n × m × k.
+The c_th apartment of the b_th floor of the a_th entrance has the number (((a - 1) * m) + b - 1) * k + c + 1.
+(1 ≤ n, m, k ≤ 1000)

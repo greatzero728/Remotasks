@@ -1,0 +1,12 @@
+You can use dynamic programming along with combinatorics to solve this problem.
+Store the value of nCr using inverse modulo, factorial, and binary exponentiation.
+Convert the given permutation to 0 based, so p[i] = p⁣[i] – 1 for counting the length of cycles.
+Counting the count of cycles of length x in the permutation and storing the divisors of k.
+
+EDGE CASE:
+If k = 0, then ans is N!.
+If the count of cycles of length 1 is N, else 0 as we cannot shuffle.
+Use dynamic programming to count the number of ways to make a cycle of length x, such that we include m elements in it.
+Traverse over all the divisors of k and check if gcd(x, l) = l, then we can make a cycle of length l*x.
+Then just calculate the number of ways using dp and combinatorics.
+Multiply the answer by the number of ways to make a cycle of length x.

@@ -1,0 +1,4 @@
+You can iterate over all the words stored in the dictionary.
+By iterating words, you can initialize the answer to all possible license plates contained in this word.
+Finally, iterate over all license plate words, check if the answer is updated initially, and print the string answer.
+Otherwise, print "No valid word".

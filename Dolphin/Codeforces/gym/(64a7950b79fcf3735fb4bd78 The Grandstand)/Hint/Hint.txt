@@ -1,0 +1,6 @@
+There is a method to find out H, S, U, and T.
+H, S, and T have two empty rectangles, and U has one empty rectangle.
+For H, the two empty rectangles are located at the bottom and top.
+For S, the two empty rectangles are located on the left and right.
+For T, the two empty rectangles are located at the bottom left and bottom right.
+And then, finally, you have to check if all widths of character are the same in the arbitrarily oriented direction.

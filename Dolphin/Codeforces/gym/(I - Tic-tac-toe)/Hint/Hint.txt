@@ -1,0 +1,3 @@
+You have to check for a line of five consecutive 'X's or 'O's in a given n × m grid.
+Iterates over each position in the grid, and for each position, check in eight directions (horizontal, vertical, and diagonal) if there are five consecutive characters of the same type.
+If such a line is found, then print "Yes"; otherwise, print "No".

@@ -1,0 +1,5 @@
+You can utilize a binary search approach to find the maximum number of twints that can fit within the character limit of 280.
+You can iteratively check if the current number of twints, divided into lines, can be accommodated within the character limit.
+If it is possible, update the answer and continue searching for a larger number of twints.
+Otherwise, reduce the search range and try with a smaller number of twints.
+Finally, output the number of twints and format the twints by adding the twint number and total number of twints at the end of each twint.

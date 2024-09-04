@@ -1,0 +1,9 @@
+The answer is obviously 0 when a = −1.
+Consider exchanging h_i and h_j when a = 1.
+For any k satisfying h_i > h_k > h_j, the reverse logarithm in the sequence can be reduced by 2.
+So the number of reversed pairs decreases after each exchange as follows:
+1 + 2 * ∑[h_i > h_k > h_j] (i ≤ k ≤ j)
+Add up the contributions of all exchanges, and the result should be equal to the reversed logarithm R of the original sequence.
+Assuming the number of exchanges is S, then S + 2 * ans = R ⇒ ans = (R − S) / 2.
+If you want to maximize ans, you only need to minimize the number of exchanges, where the minimum number of exchanges is (n − the number of permutation rings).
+(You can also move h_i to the i_th position each time to count how many times you need to move.)

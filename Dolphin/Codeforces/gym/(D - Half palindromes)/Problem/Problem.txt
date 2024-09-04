@@ -1,0 +1,2 @@
+Given a string s whose length is n and contains lowercase English letters, (1 ≤ n ≤ 3000) find the longest substring of s that satisfies certain conditions to be considered a semi-palindrome.
+A semi-palindrome is a string that is symmetrical when divided into two halves, with both halves being palindromes or having a special relationship. A semi-palindrome can have one or two centers, and the characters in the two halves must match according to specific rules.

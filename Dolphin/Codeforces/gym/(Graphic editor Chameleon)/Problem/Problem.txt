@@ -1,0 +1,4 @@
+There is a current n × n grid of colors and a desired final n × n grid of colors. (5 ≤ n ≤ 100)
+Your task is to transform the initial grid into the final grid by performing a series of cell movements and color changes.
+The grid is represented as a square matrix, where each cell can be either black (B) or white (W).
+Find a sequence of moves and color changes that will result in the final grid.

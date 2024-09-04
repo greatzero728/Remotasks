@@ -1,0 +1,4 @@
+Iterate through the array and compare elements pairwise. If they are out of order, swap them and update the positions accordingly.
+After each swap, check if the array is sorted by making a query. If the judge's response is 1, the array is sorted, and you can exit the algorithm.
+Repeat the above steps until the array is sorted, or the query limit is reached.
+By making smart comparisons and swaps, you can minimize the number of queries needed to sort the array. 

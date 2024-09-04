@@ -1,0 +1,3 @@
+The players are lined up in alphabetical order, and the coach needs to count the number of pairs where the taller player is to the left, both players have even height, and there is at least one player with odd height between them.
+The input consists of the number of players (N) and the heights of each player. (1 ≤ N ≤ 10^5) The heights are positive integers not exceeding N and are given in alphabetical order.
+Calculate the number of pairs of players that meet the mentioned conditions.

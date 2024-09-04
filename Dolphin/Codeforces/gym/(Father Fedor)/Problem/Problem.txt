@@ -1,0 +1,11 @@
+This is an interactive task.
+A weighted bidirectional graph that contains n vertices and m edges is given. The weight of each edge is a non-negative integer not exceeding 10^15.
+The indexes of vertex s and t are given. (1 ≤ s, t ≤ n, s != t)
+There are m special vertices, and the i_th special vertex number is given as A_i. (2 ≤ m ≤ n, 1 ≤ a_i ≤ n) You can add an edge of arbitrary weight between any pair of special vertices. Moreover, you can also remove any of the paths you once added.
+You can do the following operations at most 5×m times:
+1. You make a change in the structure of the nodes:
+If you are going to add a path of length l between vertices a and b, print the string "add a b l" (1 ≤ a, b ≤ n a != b, 0 ≤ l ≤ 10^15)
+If you are going to delete a path of length l between vertices a and b, print the string "delete a b l" (1 ≤ a, b ≤ n, a != b, 0 ≤ l ≤ 10^15)
+2. The program of the jury tells your program the length of the shortest from s to t.
+3. If the length of the shortest path is in the range [l, r], you print "answer ok" and terminate the program.
+4. If you realize that even though you have done this task optimally, you can't finish this operation, print "answer impossible" and end the program.

@@ -1,0 +1,3 @@
+Because N ≤ 100, you can calculate all possible shortest paths using the Floyd-Warshall algorithm.
+N ≤  9, so you can think of all possible orders between special vertices using the next_permutation method.
+Overall, you can solve this using brute force and get an optimized answer.

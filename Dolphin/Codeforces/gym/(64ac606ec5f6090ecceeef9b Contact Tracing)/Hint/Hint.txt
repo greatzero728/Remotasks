@@ -1,0 +1,3 @@
+Here, you only need to calculate the number of names that can be "superspreaders".
+You can count the occurrences of this name using the map structure.
+Finally, you only need to find names whose occurrence is greater than or equal to 3 by iterating over all values stored in the map structure.

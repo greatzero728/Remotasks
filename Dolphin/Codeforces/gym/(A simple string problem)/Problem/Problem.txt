@@ -1,0 +1,4 @@
+Given a string consisting of characters 'a', 'b', and 'c', count the number of non-empty strings that are pairwise equivalent to the given string.
+Two strings are considered pairwise equivalent if, for any substring of length 2, the number of occurrences of that substring in the first string is the same as the number of occurrences in the second string.
+You are given multiple strings and need to calculate and print the count of pairwise equivalent strings modulo 10^9 + 7 for each given string.
+The length of the strings can be up to 10^6, and the number of strings can be up to 10^5. 

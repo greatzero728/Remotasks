@@ -1,0 +1,3 @@
+The problem is finding the minimum total angle that a driver A will have to turn in order to reach his friend's house B.
+The city is represented by a set of roads and intersections, and A's house and B's house are located on different roads. A's excitement, or worry, is directly proportional to the angle at which he turns.
+Calculate the minimum total excitement that A will experience when he reaches B's house. If it is not possible for A to reach B's house, the output will be -1.

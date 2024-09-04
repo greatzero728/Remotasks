@@ -1,0 +1,3 @@
+One snail crawled to the top of the mountain.
+During the day she climbed n meters up, and at night she fell asleep, and during sleep she slid m meters down.
+How many days will she crawl to the top at a height of 3776 meters?

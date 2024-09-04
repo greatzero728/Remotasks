@@ -1,0 +1,6 @@
+The xor of two undirected graphs is defined as follows:
+The resulting graph has the same number of vertices, and an edge exists in it if and only if it exists in exactly one of the two input graphs.
+An undirected and connected graph that contains n vertices and m edges is given as n×n grid (adjacent matrix). Find at most n+m trees consisting of n where the following constraints are satisfied:
+1. His graph is the xor of them. The xor of one tree is itself. The xor of t>1 trees is (the xor of the first t−1 trees) xor (the last tree).
+2. If you take the diameter of each tree and take the maximum of them, the result should be as small as possible. The diameter of a tree is the length of its longest path.
+(2 ≤ n ≤ 100)

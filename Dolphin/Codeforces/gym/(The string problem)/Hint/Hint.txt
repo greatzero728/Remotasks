@@ -1,0 +1,4 @@
+You have to initialize the number of all characters to find out the number of certain characters in range [L_i, R_i].
+You can do this using simple dynamic programming.
+Then you have to iterate the characters from 'a' to 'z' and update the answer.
+Time complexity: O(n * unique_character(s))

@@ -1,0 +1,5 @@
+You have to find the first valid word in a dictionary for a given set of license plates.
+For each license plate, the three letters on it must be present in the same order in the valid word.
+The input consists of the number of words in the dictionary N, the number of license plates M, and the list of words in the dictionary. The license plates follow the input.
+The output should be the first valid word for each license plate, or "No valid word" if no such word exists.
+The constraints are N ≤ 5000 (the number of words in the dictionary) and M ≤ 10000 (the number of license plates), and each word and license plate string has a maximum length of 100 characters.

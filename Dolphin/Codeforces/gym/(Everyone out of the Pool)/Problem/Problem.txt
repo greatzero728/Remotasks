@@ -1,0 +1,6 @@
+Given two integers a and b, (0 < a < b ≤ 10^9) calculate the number of x such that the following satisfy:
+a < x + 1 < b
+x+1 is a square number.
+x is the sum of the first k natural numbers. (k is a certain positive integer.)
+Input for each test case will be one line containing two integers a and b, where 0 < a < b ≤ 109. The line 0 0 will follow the last test case. For the n_th test case, print one line of output as follows:
+Case n: k

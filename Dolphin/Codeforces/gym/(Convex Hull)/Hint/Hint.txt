@@ -1,0 +1,4 @@
+You can solve this problem with Graham's scan and Pick's theorem.
+First, you can get the convex hull of a given set of points using Graham's scan algorithm.
+Once the convex hull is found, you need to calculate the area and the number of boundary lattice points to determine the number of interior lattice points using Pick's theorem.
+Time complexity : O(n×log(n))

@@ -1,0 +1,5 @@
+First, you can connect with A[0] and A[i] in weight 0 and check if the shortest path is in range.
+Then, maintaining the current shortest path, you can connect edges with A[0] and A[i - 1].
+You have to control whether the shortest path will go in the correct range.
+By doing this, if you notice that it's impossible, you can terminate immediately.
+Overall, you only need to add or delete edge(A[0], A[i])

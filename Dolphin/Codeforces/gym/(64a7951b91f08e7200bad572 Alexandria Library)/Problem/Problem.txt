@@ -1,0 +1,4 @@
+Given a tree that contains N nodes and N-1 bidirectional unweighted edges.
+Let's define dist(X, Y) as the shortest distance between X and Y.
+The Q queries are given, and each query consists of 2 nodes U and V, and you have to find out the number of nodes K where dist(U, K) = dist(V, K).
+(1 ≤ N, Q ≤ 300000, 1 ≤ U, V ≤ N)

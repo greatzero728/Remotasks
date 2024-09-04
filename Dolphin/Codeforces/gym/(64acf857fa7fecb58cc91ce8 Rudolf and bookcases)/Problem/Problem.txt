@@ -1,0 +1,6 @@
+Given n eggs, you have to put these eggs in boxes.
+All boxes can contain at most l eggs.
+Then you have to put these boxes on desks.
+Each desk can contain at most k boxes.
+Your task is to calculate the minimum number of desks needed to store all eggs in boxes.
+(1 ≤ n ≤ 10^12, 1 ≤ l ≤ 1000, 1 ≤ k ≤ 10^6)

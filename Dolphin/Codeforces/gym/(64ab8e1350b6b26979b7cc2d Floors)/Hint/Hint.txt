@@ -1,0 +1,4 @@
+Given two apartment numbers, you have to find the locations of two men first.
+Because the transition within one floor of one entrance occurs instantly, you can skip the value k. So, you only need to store the entrance number and the floor number.
+If they are at the same entrance number, you can take the minimum value between the way to use the elevator and the way to not use the elevator.
+Otherwise, you must go down to the first floor of the building using the same way mentioned above, move the shortest way (left or right direction), and then move forward to A's apartment using the same way mentioned above.

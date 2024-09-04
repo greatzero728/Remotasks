@@ -1,0 +1,3 @@
+Because the number of square numbers is quite small, you can find out all possible values of x initially.
+Then, if a and b are given, you only need to find the number of x in the range [a+1, b-1].
+Time complexity: O(sqrt(10^9) + Q) (Here, Q is the number of test cases.)

@@ -1,0 +1,5 @@
+You can use graph theory and backtracking to solve this problem.
+Starting from each city, explore all possible paths, following the condition that adjacent roads must have different landscape types.
+You can use a recursive approach to traverse the graph and maintain a list of visited roads.
+If you find a valid cyclic tour, return the length of the tour and the road numbers.
+If no valid tour is found in any city, we return -1.
